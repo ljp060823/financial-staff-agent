@@ -48,7 +48,7 @@ class QwenLLM(LLM):
     
     @property
     def _llm_type(self) -> str:
-        return "rag_llm_qwen2_72b"
+        return "rag_llm_qwen2.5_7b"
     
 
 from langchain.embeddings.huggingface import HuggingFaceEmbeddings
